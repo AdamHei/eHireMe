@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Home"
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"/>
+        <item android:title="Matches"
+            android:id="@+id/nav_matches"
+            android:icon="@mipmap/ic_peeps"
+            />
+        <item android:title="Profile"
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_profile"
+            />
+        <item android:title="Settings"
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings" />
+    </group>
+
+</menu>
